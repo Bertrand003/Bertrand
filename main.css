@@ -34,33 +34,35 @@ body{
 }
 .container p{
     padding: 9px 0px 10px 0px;
-    color: hsla(0, 0%, 100%, 0.705);
-    font-family: "Lexend"sans-serif;
-    font-size: 15px;
-    font-weight: 800;
+    color: hsla(0, 0%, 100%, 0.678);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
     line-height: 1.5;
 }
 .container h3{
     padding: 20px 0px 15px 0px;
     font-family: "Big Shoulders Display", sans-serif;
-    font-size: 25px;
-    font-weight: 800;
+    font-size: 29px;
+    font-weight: 700;
     /* color: hsl(162deg 19% 90%); */
     color: hsla(0, 0%, 95%, 0.952);
 }
 .container button{
-    background-color: hsla(0, 0%, 95%, 0.993);
+    background-color: hsla(0, 0%, 95%, 0.932);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 12px;
     padding: 13px;
     margin-top: 50px;
     text-align: center;
     border-radius: 57px;
     width: 120px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .sedans {
     padding: 30px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
     background-color: hsl(31, 77%, 52%);
 }
 .sedans button{
@@ -88,8 +90,8 @@ body{
 }
 .luxury{
     padding: 30px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
     background-color: hsl(179, 100%, 13%);
 }
 .luxury button{
