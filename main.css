@@ -35,16 +35,18 @@ body{
 .container p{
     padding: 9px 0px 10px 0px;
     color: hsla(0, 0%, 100%, 0.705);
+    font-family: "Lexend"sans-serif;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 1.5;
 }
 .container h3{
     padding: 20px 0px 15px 0px;
+    font-family: "Big Shoulders Display", sans-serif;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 800;
     /* color: hsl(162deg 19% 90%); */
-    color: hsla(0, 0%, 95%, 0.877);
+    color: hsla(0, 0%, 95%, 0.952);
 }
 .container button{
     background-color: hsla(0, 0%, 95%, 0.993);
