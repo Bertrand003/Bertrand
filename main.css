@@ -43,8 +43,8 @@ body{
 .container h3{
     padding: 20px 0px 15px 0px;
     font-family: "Big Shoulders Display", sans-serif;
-    font-size: 29px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 600;
     /* color: hsl(162deg 19% 90%); */
     color: hsla(0, 0%, 95%, 0.952);
 }
