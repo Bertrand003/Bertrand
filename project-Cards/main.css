@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color:hsl(0, 0%, 94%);
+    font-size: 15px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.background{
+    background-color: hsl(0, 0%, 95%);
+    width: 1107px;
+    height: 607px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 15px 25px 1px rgba(105, 105, 105, 0.199) ;
+
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+    width: 720px;
+    height: 386px;
+    font-family:unset;
+}
+.container img{
+    width: 30%;
+    height: auto;
+}
+.container p{
+    padding: 9px 0px 10px 0px;
+    color: hsla(0, 0%, 100%, 0.678);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.container h3{
+    padding: 20px 0px 15px 0px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    /* color: hsl(162deg 19% 90%); */
+    color: hsla(0, 0%, 95%, 0.952);
+}
+.container button{
+    background-color: hsla(0, 0%, 95%, 0.932);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 12px;
+    padding: 13px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 57px;
+    width: 120px;
+    font-weight: 600;
+}
+.sedans {
+    padding: 30px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: hsl(31, 77%, 52%);
+}
+.sedans button{
+    color: hsl(31, 77%, 52%);
+    border: 5px ;
+}
+.sedans button:hover{
+    color: hsla(0, 0%, 95%, 0.877);
+    background-color: hsl(31, 77%, 52%);
+    box-shadow: 0px 0px 0px 2px whitesmoke;
+}
+.suvs{
+    padding: 30px;
+    background-color: hsl(184, 100%, 22%);
+    
+}
+.suvs button{
+    color: hsl(184, 100%, 22%);
+    border: 5px ;
+}
+.suvs button:hover{
+    color: hsla(0, 0%, 95%, 0.877);
+    background-color: hsl(184, 100%, 22%);
+    box-shadow: 0px 0px 0px 2px whitesmoke;
+}
+.luxury{
+    padding: 30px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: hsl(179, 100%, 13%);
+}
+.luxury button{
+    color: hsl(179, 100%, 13%);
+    border: 5px;
+}
+.luxury button:hover{
+    color: hsla(0, 0%, 95%, 0.877);
+    background-color: hsl(179, 100%, 13%);
+    /* border: 5px white; */
+    box-shadow: 0px 0px 0px 2px whitesmoke;
+}
